@@ -1,5 +1,5 @@
-// src/app/page.tsx
-import HamburgerMenu from './Components/HamburgerMenu';
+import { HamburgerMenu } from './Components/HamburgerMenu';
+console.log('HamburgerMenu import is:', HamburgerMenu);
 
 export default function Home() {
   return (
